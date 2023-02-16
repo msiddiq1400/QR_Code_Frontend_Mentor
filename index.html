@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: hsl(212, 45%, 89%);
+      height: 100vh;
+      margin: 0px;
+      padding: 0px;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 26rem;
+      width: 16rem;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 10px;
+    }
+
+    .top {
+      margin-top: 10px;
+    }
+
+    .qr_image {
+      width: 14rem;
+      height: 15rem;
+      border-radius: 8px;
+    }
+
+    .center {
+      text-align: center;
+      font-weight: bolder;
+      font-size: 18px;
+      margin: 5px 10px;
+    }
+
+    .bottom {
+      text-align: center;
+      font-size: small;
+      margin-bottom: 25px;
+      color: gray;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <div class="container">
+      <div class="top">
+        <img src="./images/image-qr-code.png" alt="qr-code" class="qr_image">
+      </div>
+      <div class="center">Improve your front-end skills by building projects</div>
+      <div class="bottom">Scan the qr code to visit the front end mentor and take coding skills to the next level</div>
+    </div>
+  </div>
+</body>
+
+</html>
